@@ -8,25 +8,25 @@
 </head>
 <body>
     <form action="" method="">
-        <label for="username">請輸入使用者名稱:</label>
+        <label for="username">請輸入使用者名稱(kOOOOOOOO):</label>
             <input type="text" name="username" id="" size="10" 
-             maxlength="10" value="kOOOOOOOO"><br />
+             maxlength="10" value="" required><br />
 
         <label for="pass">請輸入密碼:</label>
             <input type="password" name="password" id="" size="10" 
-             maxlength="10" ><br />
+             maxlength="10" required><br />
 
         <label for="username">請輸入真實姓名:</label>
             <input type="text" name="name" id="" size="10" 
-             maxlength="10" ><br />
+             maxlength="10" required><br />
 
-        <label for="username">請輸入電子郵件:</label>
+        <label for="username">請輸入電子郵件(@gcloud.csu.edu.tw):</label>
             <input type="text" name="e-mail" id="" size="20" 
-             maxlength="30" value="k@gcloud.csu.edu.tw"><br />
+             maxlength="30" value="" pattern="[a-z0-9_]+@[a-z0-9._]+" required><br />
 
         <label for="">性別:</label>
-            <input name="sex" type="radio" value="male">男
-            <input name="sex" type="radio" value="female">女<br /> 
+            <input name="sex" type="radio" value="male" required>男
+            <input name="sex" type="radio" value="female" required>女<br /> 
 
         <label for="username">你的興趣是:</label>
             <input type="text" name="interest" size="25" maxlength="25" ><br />
